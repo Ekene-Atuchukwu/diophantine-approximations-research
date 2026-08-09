@@ -48,40 +48,34 @@ The scaled error metric $q^2 \cdot \vert{}x - p/q\vert{}$ approaches an upper bo
 Diophantine_Suite/
 │
 ├── module1_cf_generator.py    # Generates partial quotients and continued fractions formatting
-├── module2_convergents.py      # Computes p/q pairs and tests Dirichlet bounds
+├── module2_convergents.py     # Computes p/q pairs and tests Dirichlet bounds
 ├── module3_spectrum.py        # Evaluates badly approximable numbers & Hurwitz limits
 ├── main.py                    # Master demonstration script
 └── README.md                  # Project documentation
+```
 
-
-##Modules
+## Modules
 
 ### module1_cf_generator.py
-Implements the continued fraction algorithm from scratch, computing
-partial quotients for rational, quadratic irrational, and
-transcendental numbers.
+Implements the continued fraction algorithm from scratch, computing partial quotients for rational, quadratic irrational, and transcendental numbers.
 
 ### module2_convergents.py
-Computes rational convergents from continued fraction expansions
-using the fundamental recurrence relations, and checks each
-convergent against Dirichlet's approximation theorem.
+Computes rational convergents from continued fraction expansions using the fundamental recurrence relations, and checks each convergent against Dirichlet's approximation theorem.
 
 ### module3_spectrum.py
-Compares how "badly approximable" different irrational numbers are
-by examining their partial quotients, and numerically verifies
-Hurwitz's theorem, showing why the golden ratio is the hardest
-irrational number to approximate by rationals.
+Compares how "badly approximable" different irrational numbers are by examining their partial quotients, and numerically verifies Hurwitz's theorem, showing why the golden ratio is the hardest irrational number to approximate by rationals.
 
 ## Usage
 
-Run main.py to see a complete demonstration:
+Run `main.py` to see a complete demonstration:
 
-    python main.py
+```bash
+python main.py
+```
 
 ## Requirements
 
-No installation needed. Uses only the built-in math module for Python.
-
+No installation needed. Uses only the built-in `math` module for Python.
 
 ## Author
 
@@ -92,5 +86,7 @@ This is my first Python repository! If you notice any bugs or have ideas on how 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2026 Ekene Atuchukwu
 
 Copyright (c) 2026 Ekene Atuchukwu
